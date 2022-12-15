@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+  <EditText
+      android:id="@+id/message"
+      android:layout_width="195dp"
+      android:layout_height="62dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_margin="3dp"
+      android:autofillHints="username"
+      android:background="@color/material_dynamic_neutral80"
+      android:inputType="text"
+      android:minHeight="48dp"
+      android:text="@string/enter_your_text_here"
+      android:textColorHint="#757575"
+      tools:ignore="LabelFor" />
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_margin="16dp"
+      android:background="@color/material_dynamic_neutral80"
+      android:text="@string/enter_your_favourite_drink_here"
+      android:textAlignment="center"
+      android:textAllCaps="true"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/Send"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/send" />
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_gravity="center_vertical"
+      android:text="@string/enjoy_the_world_of_music_here"
+      android:textAlignment="center"
+      android:textAllCaps="true"
+      android:textColor="@color/black"
+      android:textColorHighlight="@color/black"
+      tools:ignore="InvalidId,RtlCompat" />
+
+
+  <ToggleButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:hint="@string/fab_transformation_scrim_behavior"
+      android:text="@string/app_name"
+
+      android:textColorHint="#757575" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_margin="16dp"
+      android:minHeight="24dp"
+      android:text="@string/welcome_to_the_mood_based_app"
+      android:textAllCaps="true"
+      android:textColorHint="#757575" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="400dp"
+      android:layout_height="332dp"
+      android:layout_gravity="center_horizontal"
+      android:contentDescription="@string/enjoy_your_music"
+      tools:srcCompat="@tools:sample/avatars" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/thank_you" />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MusicRecomm_App</string>
+    <string name="welcome_to_mood_based_recommender">Welcome to Mood-Based Recommender!</string>
+</resources>

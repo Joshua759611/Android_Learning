@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Birthday_App</string>
+    <string name="send">SEND</string>
+    <string name="enter_your_text_here">Enter Your Text Here</string>
+    <string name="enjoy_the_world_of_music_here">Enjoy the World of Music Here</string>
+    <string name="welcome_to_the_mood_based_app">Welcome to the Mood_Based App</string>
+    <string name="your_favourite_drink_here" />
+    <string name="enjoy_your_music">Enjoy Your Music</string>
+    <string name="enter_your_favourite_drink_here">Favourite_drink</string>
+    <string name="thank_you">Thank You!!!</string>
+
+</resources>
